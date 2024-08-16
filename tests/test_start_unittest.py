@@ -17,10 +17,10 @@ def main():
 
     try:
         # Abre la página web
-        driver.get("http://www.clouditeducation.com/pruebas")
+        driver.get("https://alejo20788.github.io/PaginaPruebas/")
 
         # Busca el elemento por ID
-        elemento = driver.find_element(By.ID, "noImportante")
+        elemento = driver.find_element(By.ID, "computador")
         if elemento:
             print("El elemento by ID fue encontrado")
 
